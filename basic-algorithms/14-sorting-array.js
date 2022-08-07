@@ -12,5 +12,7 @@ function getIndexToIns(arr) {
   return arr;
 }
 
-const ans=getIndexToIns([40, 60, 2, 8, 90]);
+const a1 = [40, 60, 2, 8, 90];
+
+const ans=getIndexToIns(a1);
 console.log(ans);
